@@ -1,0 +1,5 @@
+[General]<% @general_section.sort_by{|key, value| key}.each do |key, value| %>
+<%= key %> = <%= value %><% end %>
+
+[Report]<% @report_section.sort_by{|key, value| key}.each do |key, value| %>
+<%= key %> = <%= value %><% end %>
