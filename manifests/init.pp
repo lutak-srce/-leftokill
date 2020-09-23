@@ -73,7 +73,6 @@ class leftokill (
   $file_group        = $::leftokill::params::file_group,
   $dependency_class  = $::leftokill::params::dependency_class,
   $my_class          = $::leftokill::params::my_class,
-  $manual            = $::leftokill::params::manual,
   $noops             = undef,
 
   $config_file       = $::leftokill::params::config_file,
